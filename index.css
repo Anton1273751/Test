@@ -1,0 +1,55 @@
+body {
+  width: 1440px;
+  height: 3746px;
+  background: #f4f6f5;
+}
+
+header {
+  display: inline-flex;
+  height: 100px;
+  padding: 33px 165px 32px 165px;
+  justify-content: center;
+  align-items: center;
+  gap: 497px;
+  flex-shrink: 0;
+  color: #a2ebc0;
+  background-color: #e1ede6;
+}
+.nav_button {
+  display: flex;
+  align-items: flex-start;
+  gap: 60px;
+}
+.ink_House {
+  color: #598d66;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.layer_1 {
+  display: flex;
+  width: 1440px;
+  height: 620px;
+  padding: 0px 165px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-shrink: 0;
+}
+.pigeon {
+  display: block;
+  width: 540px;
+  height: 621px;
+  flex-shrink: 0;
+}
+
+.Replica {
+  width: 540px;
+  height: 331px;
+  flex-shrink: 0;
+  border-color: black;
+  
+}
