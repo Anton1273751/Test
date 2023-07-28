@@ -4,16 +4,20 @@ body {
   background: #f4f6f5;
 }
 
-header {
+.flex_header {
   display: inline-flex;
   height: 100px;
-  padding: 33px 165px 32px 165px;
+  padding: 0px 165px;
   justify-content: center;
   align-items: center;
   gap: 497px;
   flex-shrink: 0;
   color: #a2ebc0;
   background-color: #e1ede6;
+}
+
+.star {
+  display: flex;
 }
 .nav_button {
   display: flex;
@@ -29,7 +33,7 @@ header {
   line-height: normal;
 }
 
-.layer_1 {
+.flex_box1 {
   display: flex;
   width: 1440px;
   height: 620px;
@@ -39,17 +43,94 @@ header {
   gap: 30px;
   flex-shrink: 0;
 }
-.pigeon {
-  display: block;
-  width: 540px;
-  height: 621px;
-  flex-shrink: 0;
-}
 
 .Replica {
   width: 540px;
   height: 331px;
   flex-shrink: 0;
   border-color: black;
+}
+.Text_1 {
+  width: 540px;
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 66px */
+}
+
+.Text_2 {
+  color: #86928b;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+.Product {
+  display: inline-flex;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  border: 1px solid #598d66;
+}
+
+.reproduct {
+  display: flex;
+  width: 1110px;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 160px;
+}
+.Text_Product {
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 44px */
+}
+.Country:hover {
+  display: flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  border-radius: 20px;
+  color: #d4e8d9;
+  background-color: #4caf50;
+}
+
+.flex_box2 {
+  display: flex;
+  gap: 30px;
+  padding: 0px 165px;
+}
+.but_box2 {
+  display: flex;
+  width: 310px;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.flex_box3 {
+  display: flex;
+  gap: 30px;
+  padding: 0px 165px;
+}
+
+.Flex_box4 {
+  display: flex;
   
+}
+
+.img_box4 {
+  width: 1440px;
+  height: 574px;
+  flex-shrink: 0;
 }
