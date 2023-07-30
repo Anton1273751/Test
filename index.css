@@ -6,6 +6,7 @@
 
 body {
   font-family: Raleway sans-serif;
+  font: size 18px;
 }
 .container {
   max-width: 1110px;
@@ -15,6 +16,12 @@ body {
 .header {
   height: 100px;
   background: #e1ede6;
+}
+
+.logo {
+  display: flex;
+  gap: 0 8px;
+  align-items: center;
 }
 
 .logo__text {
