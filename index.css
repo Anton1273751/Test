@@ -21,6 +21,13 @@ body {
   height: 100%;
 }
 
+.header__nav {
+  display: flex;
+}
+.header__link {
+  justify-items: right;
+}
+
 .logo {
   display: flex;
   gap: 0 8px;
