@@ -17,6 +17,9 @@ body {
   height: 100px;
   background: #e1ede6;
 }
+.header-inner {
+  height: 100%;
+}
 
 .logo {
   display: flex;
