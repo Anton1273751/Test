@@ -85,6 +85,6 @@ body {
   line-height: 110%;
 }
 
-.catalog__reproduction {
-  display: flex;
+.catalog-inner{
+  justify-content: space-between;
 }
