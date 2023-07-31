@@ -19,10 +19,16 @@ body {
 }
 .header-inner {
   height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__nav {
   display: flex;
+  align-items: center;
+  gap: 0 60px;
+  
+  gap: 60px;
 }
 .header__link {
   justify-items: right;
