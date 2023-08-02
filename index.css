@@ -59,7 +59,7 @@ body {
 .hero__second {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  
 }
 
 .hero-inner {
@@ -68,35 +68,133 @@ body {
 }
 
 .hero__text {
-  display: flex;
-  color: #2c2d35;
-  font-family: Raleway;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 110%; /* 66px */
+display: flex;
+width: 540px;
+color: #2C2D35;
+font-family: Raleway;
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 66px */
 }
 
+.hero__p{
+color: #86928B;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+margin-top: 20px;
+
+
+
+}
 .hero_button {
+  display: flex;
+  width: 125px;
+  height: 25px;
+  border: 1px solid #598D66;
+  margin-top: 60px;
+  justify-content: center;
+  align-items:center;
+  padding: 20px 60px;
+}
+
+
+.catalog__frame250{
+  display: flex;
+  justify-content: space-between;
+}
+.catalog__group-Button{
+  display: flex;
+  gap: 32px;
+}
+
+.catalog__button{
+display: flex;
+background: #D4E8D9;
+border-radius: 20px;
+align-items: center;
+padding: 10px 20px;
+
+}
+h2{
+color: #2C2D35;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; 
+}
+
+
+.catalog__content{
+
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+  
+}
+.catalog__card{
+  display: flex;
+  
+  
+  
+  }
+
+.catalog__cardinfo{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.catalog__AuthorName{
+color: #86928B;
+font-family: Raleway;
+
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+} 
+
+.catalog__CardName{
+color: #2C2D35;
+font-family: Raleway;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.catalog__SizeCard{
+  color: #2C2D35;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.catalog__CardPrice{
+color: #598D66;
+font-family: Raleway;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.ctalog__basket{
+  display: flex;
   align-items: center;
-  display: inline-flex;
+  justify-content: center;
+  width: 310px;
   height: 65px;
   padding: 20px 60px;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-  flex-shrink: 0;
 }
-.hero_p {
-  display: inline-flex;
-  height: 65px;
-  padding: 20px 60px;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-  flex-shrink: 0;
-  /* 27px */
-}
-.hero_color_text {
-  color: #598d66;
+.promo__img{
+  display: flex;
+  height: 574px;
 }
