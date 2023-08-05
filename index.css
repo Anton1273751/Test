@@ -197,6 +197,9 @@ h2 {
   border: 1px solid #598d66;
 }
 
-.promo__img {
-  position: absolute;
+.promo{
+  height: 574px ;
+}
+.promo__frame252{
+  display: flex;
 }
