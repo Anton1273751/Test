@@ -9,12 +9,9 @@ body {
   font: size 18px;
 }
 
-*button {
-  padding: 0;
-  border: none;
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
+button {
+  border: 0;
+  background: 0;
   cursor: pointer;
 }
 
@@ -197,9 +194,40 @@ h2 {
   border: 1px solid #598d66;
 }
 
-.promo{
-  height: 574px ;
+.promo {
+  height: 574px;
+  padding: 70px 0;
+  background: lightgrey;
+  background-image: url(./src/img/promo/pic_background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.promo__frame252{
+.promo__frame252 {
   display: flex;
+}
+h4 {
+  color: #f4f6f5;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 40px */
+}
+.promo__text {
+  width: 540px;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+.promo__btn {
+  margin-top: 60px;
+  height: 65px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  background: #eedb6d;
 }
