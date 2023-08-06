@@ -265,3 +265,22 @@ h5 {
   display: flex;
   gap: 30px;
 }
+.footer {
+  height: 168px;
+  margin-top: 70px;
+  background: #e1ede6;
+}
+
+.footer-inner {
+  height: 100%;
+}
+.footer__logo {
+  display: flex;
+  padding-top: 23px;
+}
+
+.footer__info {
+  display: flex;
+  margin-top: 35px 0;
+  flex-direction: column;
+}
