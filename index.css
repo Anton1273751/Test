@@ -281,6 +281,28 @@ h5 {
 
 .footer__info {
   display: flex;
-  margin-top: 35px 0;
+  height: 100%;
+  margin-top: 35px;
   flex-direction: column;
+  gap: 8px;
+}
+
+.footer__text {
+  color: #86928b;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+h6 {
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer__country{
+  display: flex;
 }
