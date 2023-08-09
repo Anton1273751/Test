@@ -7,25 +7,37 @@
     <title>homework</title>
   </head>
   <body>
-    <div class="container">
-      <div class="box1"></div>
-      <div class="box2"></div>
-      <div class="box3"></div>
-    </div>
-
     <div class="homework">
-      <div class="homework__parrent">
-        <img
-          class="homework__doter"
-          src="./src/img.webp"
-          alt=""
-          srcset="./src/img2.webp"
-        />
-      </div>
+      <div class="container ">
+        <div class="homework__parentImg">
+          <button class="homework__heart"><img width="24" height="24" class="homework__img" src="./src/heart.svg" alt=""></button> 
+        </div>
+        <div class="homework__info">
+          <strong class="homework__price">599,99 ₽</strong>
+          <p class="homework__text">Комбайн КЗС-1218 <br>«ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+          <div class="homework__rating">
+            <input type="radio" id="star-5" name="rating" value="5">
+            <label for="star-5" title="Оценка 1"></label>
+            <input type="radio" id="star-4" name="rating" value="4">
+            <label for="star-4" title="Оценка 2"></label>
 
-      <strong class="homework__price">599,99₽</strong>
-      <p class="homework__info">Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
-      <button class="homework__btn">В корзину</button>
+            <input type="radio" id="star-3" name="rating" value="3">
+            <label for="star-3" title="Оценка 3"></label>
+
+            <input type="radio" id="star-2" name="rating" value="2">
+            <label for="star-2" title="Оценка 4"></label>
+
+            <input type="radio" id="star-1" name="rating" value="1">
+            <label for="star-1" title="Оценка 5"></label>
+
+            
+          </div>
+
+          <button class="homework__btn">В корзину</button>
+        </div>
+        </div>
+        
+      </div>
     </div>
   </body>
 </html>
