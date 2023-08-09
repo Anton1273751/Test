@@ -22,7 +22,7 @@
   width: 400px;
   height: 200px;
   background-color: blueviolet;
-  position: absolute;
+  position: sticky;
   top: 50px;
 }
 
@@ -30,5 +30,10 @@
   width: 200px;
   height: 100px;
   background-color: goldenrod;
-  position: fixed;
+  position: sticky;
+  padding-bottom: 50px;
+}
+.homework {
+  display: flex;
+  flex-direction: column;
 }
