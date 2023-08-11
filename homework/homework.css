@@ -10,30 +10,6 @@
   padding: 0 15px;
 }
 
-.box1 {
-  display: flex;
-  width: 600px;
-  height: 400px;
-  background-color: brown;
-  position: relative;
-}
-
-.box2 {
-  width: 400px;
-  height: 200px;
-  background-color: blueviolet;
-  position: sticky;
-  top: 50px;
-}
-
-.box3 {
-  width: 200px;
-  height: 100px;
-  background-color: goldenrod;
-  position: sticky;
-  padding-bottom: 50px;
-}
-
 .homework__Cardinfo {
   padding: 10px 0;
 }
@@ -80,7 +56,7 @@
 }
 
 .homework__text {
-  margin-top: 26px;
+  margin-top: 8px;
   color: var(--main-on-surface, #414141);
   font-family: Rubik;
   font-size: 16px;
@@ -134,13 +110,33 @@
   opacity: 0.5;
 }
 .homework__discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 24px;
-  display: inline-flex;
   padding: 4px 8px;
-  align-items: flex-start;
+  position: absolute;
+  top: 118px;
+  left: 8px;
+
   border-radius: 4px;
   background: var(--main-primary, #f63);
+}
+
+.hommework__priceInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homework__desc {
+  color: var(--grayscale-light, #bfbfbf);
+
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .homework__disc {
@@ -155,4 +151,22 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
+}
+
+.box1 {
+  display: flex;
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.box1__title {
+  display: flex;
+  width: 100px;
+  height: auto;
+  background: blue;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
 }
