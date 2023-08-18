@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.btn {
+  background: 0;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
 body {
   font-family: Raleway sans-serif;
   font: size 18px;
@@ -40,7 +47,11 @@ button {
   gap: 60px;
 }
 .header__link {
-  justify-items: right;
+  background: 0;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .logo {
@@ -95,7 +106,7 @@ button {
   font-style: normal;
   margin-top: 20px;
 }
-.hero_button {
+.hero__bnt {
   display: flex;
   width: 125px;
   height: 25px;
@@ -106,6 +117,10 @@ button {
   padding: 20px 60px;
 }
 
+.btn__text {
+  color: #598d66;
+  padding: 20px 60px;
+}
 .catalog__frame250 {
   width: 100%;
   display: flex;
@@ -116,15 +131,22 @@ button {
   gap: 32px;
 }
 
-.catalog__button:hover {
-  background: #376b44;
+.catalog__btn {
+  color: #2c2d35;
 }
-
+.catalog__btn:hover {
+  color: #f4f6f5;
+}
 .catalog__button {
+  border-radius: 20px;
   background: #d4e8d9;
   border-radius: 20px;
   align-items: center;
   padding: 10px 20px;
+}
+
+.catalog__button:hover {
+  background: #376b44;
 }
 
 h2 {
@@ -192,6 +214,15 @@ h2 {
   border: 1px solid #598d66;
 }
 
+.catalog__link {
+  color: #598d66;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 .promo {
   height: 574px;
   padding: 70px 0;
@@ -230,7 +261,14 @@ h4 {
   align-items: center;
   background: #eedb6d;
 }
-
+.promo__link {
+  color: #2c2d35;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .team__info {
   display: flex;
   margin-top: 70px;
@@ -273,9 +311,9 @@ h5 {
 
 .footer-inner {
   height: 100%;
+  display: flex;
 }
 .footer__logo {
-  display: flex;
   padding-top: 23px;
 }
 
@@ -294,8 +332,9 @@ h5 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-top: 6px;
 }
-h6 {
+h3 {
   color: #2c2d35;
   font-family: Raleway;
   font-size: 20px;
@@ -303,6 +342,33 @@ h6 {
   font-weight: 500;
   line-height: normal;
 }
-.footer__country{
+
+.footer__country {
   display: flex;
+  margin-left: 115px;
+  align-items: center;
+  gap: 60px;
+}
+
+.footer__media {
+  display: flex;
+  width: 132px;
+  flex-direction: column;
+  margin-left: 248px;
+  margin-top: 23px;
+}
+
+.footer__network {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__txt {
+  color: #86928b;
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-top: 10px;
 }

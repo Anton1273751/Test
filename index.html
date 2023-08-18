@@ -26,11 +26,10 @@
           <strong class="logo__text">Ink. House</strong>
         </div>
         <nav class="header__nav">
-          <a href="" class="header__link">Репродукции</a>
-          <a href="" class="header__link">Новинки</a>
-          <a href="" class="header__link"> О нас</a>
-          <a href="" class="header__link"
-            ><img
+          <button class="header__btn">Репродукции</button>
+          <button class="header__btn">Новинки</button>
+          <button class="header__btn">О нас</button>
+           <img class="header__img"
               width="22"
               height="22"
               src="src/img/logo/shopping-cart(1).svg"
@@ -58,7 +57,9 @@
               Высокое качество отрисовки на плотной бумаге или льняном холсте.
               Редкие произведения, доступные цены.
             </p>
-            <button class="hero_button"><a href="#">Продукция</a></button>
+            <button class="hero__bnt">
+              <span class="btn__text">Продукция</span>
+            </button>
           </div>
         </div>
       </section>
@@ -68,13 +69,13 @@
             <h2>Репродукции</h2>
             <div class="catalog__group-Button">
               <button class="catalog__button" id="">
-                <a href="#">Франция</a>
+                <span class="catalog__btn">Франция</span>
               </button>
               <button class="catalog__button" id="">
-                <a href="#">Германия</a>
+                <span class="catalog__btn">Германия</span>
               </button>
               <button class="catalog__button" id="">
-                <a href="#">Англия</a>
+                <span class="catalog__btn">Англия</span>
               </button>
             </div>
           </div>
@@ -90,7 +91,7 @@
               <p class="catalog__SizeCard">Холст, масло (50х80)</p>
               <p class="catalog__CardPrice">14 500 руб</p>
               <button class="ctalog__basket">
-                <a href="#">В корзину</a>
+                <span class="catalog__link">В корзину</span>
               </button>
             </div>
 
@@ -105,7 +106,7 @@
               <p class="catalog__SizeCard">Цветная литография (40х60)</p>
               <p class="catalog__CardPrice">20 000 руб</p>
               <button class="ctalog__basket">
-                <a href="#">В корзину</a>
+                <span class="catalog__link">В корзину</span>
               </button>
             </div>
 
@@ -120,7 +121,7 @@
               <p class="catalog__SizeCard">Бумага, акрил (50х80)</p>
               <p class="catalog__CardPrice">12 000 руб</p>
               <button class="ctalog__basket">
-                <a href="#">В корзину</a>
+                <span class="catalog__link">В корзину</span>
               </button>
             </div>
 
@@ -135,7 +136,7 @@
               <p class="catalog__SizeCard">Цветная литография (40х60)</p>
               <p class="catalog__CardPrice">22 500 руб</p>
               <button class="ctalog__basket">
-                <a href="#">В корзину</a>
+                <span class="catalog__link">В корзину</span>
               </button>
             </div>
 
@@ -150,7 +151,7 @@
               <p class="catalog__SizeCard">Цветная литография (40х60)</p>
               <p class="catalog__CardPrice">20 000 руб</p>
               <button class="ctalog__basket">
-                <a href="#">В корзину</a>
+                <span class="catalog__link">В корзину</span>
               </button>
             </div>
 
@@ -165,7 +166,7 @@
               <p class="catalog__SizeCard">Акрил, бумага (50х80)</p>
               <p class="catalog__CardPrice">16 500 руб</p>
               <button class="ctalog__basket">
-                <a href="#">В корзину</a>
+                <span class="catalog__link">В корзину</span>
               </button>
             </div>
           </div>
@@ -188,7 +189,9 @@
             предопределяет высокую востребованность направлений прогрессивного
             развития.
           </p>
-          <button class="promo__btn"><a href="">Ознакомиться</a></button>
+          <button class="promo__btn">
+            <span class="promo__link">Ознакомится</span>
+          </button>
         </div>
       </section>
       <section class="team">
@@ -221,7 +224,8 @@
     </main>
     <footer class="footer">
       <div class="container footer-inner">
-        <div class="footer__logo logo">
+        <div class="footer__logowraper">
+            <div class="footer__logo logo">
           <img
             class="logo__img"
             width="35"
@@ -230,10 +234,38 @@
             alt="☆"
           />
           <strong class="logo__text">Ink. House</strong>
-        </div>
-        <div class="footer__info">
-          <h6>+7 (999) 543-54-54</h6>
+          </div>
+         <div class="footer__info">
+          <h3>+7 (999) 543-54-54</h6>
           <p class="footer__text">Мастерская</p>
+        </div>
+        </div>
+        <div class="footer__country">
+          <div class="footer__countrylist">
+            <h3 class="footer__title">Репродукции</h3>
+            <p class="footer__text">Франция</p>
+            <p class="footer__text">Германия</p>
+            <p class="footer__text">Англия</p>
+          </div>
+          <div class="footer__countrylist">
+             <h3 class="footer__title">Новинки</h3>
+            <p class="footer__text">2021</p>
+            <p class="footer__text">2020</p>
+          </div>
+          <div class="footer__countrylist">
+             <h3 class="footer__title">О нас</h3>
+            <p class="footer__text">Художники</p>
+            <p class="footer__text">Менеджеры</p>
+          </div>
+        </div>
+        <div class="footer__media">
+          <div class="footer__network">
+            <img src="./src/img/footer/Frame.svg" alt="" id=""></img>
+            <img src="./src/img/footer/inst.svg" alt="" id=""></img>
+            <img src="./src/img/footer/Ytb.svg" alt="" id=""></img>
+          </div>
+          <p class="footer__txt">Ink. House ®</p>
+          <p class="footer__txt">All rights reserved</p>
         </div>
       </div>
     </footer>
